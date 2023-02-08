@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\02855130280\\source\\repos\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj": {}
+    "C:\\Users\\02855130280\\Desktop\\meusProjetos\\Sales-Web-Mvc\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\02855130280\\source\\repos\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj": {
+    "C:\\Users\\02855130280\\Desktop\\meusProjetos\\Sales-Web-Mvc\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\02855130280\\source\\repos\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj",
+        "projectUniqueName": "C:\\Users\\02855130280\\Desktop\\meusProjetos\\Sales-Web-Mvc\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj",
         "projectName": "SalesWebMvc",
-        "projectPath": "C:\\Users\\02855130280\\source\\repos\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj",
+        "projectPath": "C:\\Users\\02855130280\\Desktop\\meusProjetos\\Sales-Web-Mvc\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj",
         "packagesPath": "C:\\Users\\02855130280\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\02855130280\\source\\repos\\SalesWebMvc\\SalesWebMvc\\obj\\",
+        "outputPath": "C:\\Users\\02855130280\\Desktop\\meusProjetos\\Sales-Web-Mvc\\SalesWebMvc\\SalesWebMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.32, )"
