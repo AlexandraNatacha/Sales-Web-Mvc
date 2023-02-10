@@ -32,7 +32,7 @@ namespace SalesWebMvc
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
             services.AddDbContext<SalesWebMvcContext>(options =>
-                    options.UseMySQL(Configuration.GetConnectionString("SalesWebMvcContext"), builder => builder.MigrationsAssembly("SalesWebMvc")));
+                    options.UseSqlServer(Configuration.GetConnectionString("SalesWebMvcContext"), builder => builder.MigrationsAssembly("SalesWebMvc")));
             services.AddScoped<SeedingService>();
             services.AddScoped<SellerService>();
             services.AddScoped<DepartmentService>();
