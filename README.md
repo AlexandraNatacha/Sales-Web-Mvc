@@ -1,2 +1,2 @@
 # Sales-Web-Mvc
-Projeto do curso completo de C#
+Projeto completo de C#
